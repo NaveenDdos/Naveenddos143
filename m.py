@@ -7,7 +7,7 @@ import datetime
 import os
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('7075095752:AAG9-JhC4_mvpdGKSCZ9yTxmAqR24HQtC0U')
+bot = telebot.TeleBot('7075095752:AAFrnxuVK0P9I2B6aIkWW5dP0NoyL_WgUuk')
 
 # Admin user IDs
 admin_id = ["1641352676,6436531591"]
@@ -213,7 +213,7 @@ def start_attack_reply(message, target, port, time):
 # Dictionary to store the last time each user ran the /bgmi command
 bgmi_cooldown = {}
 
-COOLDOWN_TIME = 60
+COOLDOWN_TIME = 30
 
 # Handler for /bgmi command
 @bot.message_handler(commands=['bgmi'])
@@ -247,7 +247,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = "❌ You Are Not Authorized To Use This Command ❌. Please Contact @tcpking To Get Access."
+        response = "❌ You Are Not Authorized To Use This Command ❌. Please Contact @NaveenDdos To Get Access."
 
     bot.reply_to(message, response)
 
@@ -328,9 +328,9 @@ Vip 🌟 :
 -> Concurrents Attack : 3
 
 Pr-ice List💸 :
-Day-->800 Rs
-Week-->1100 Rs
-Month-->2000 Rs
+Day-->250 Rs
+Week-->900 Rs
+Month-->1700 Rs
 
 Note :- 180 Sec Is Enough If U Uses 180 Sec Attack Then It Can Kill The Whole Match Server In Plan !!
 '''
